@@ -1,0 +1,29 @@
+{
+  "name": "react_true",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "export": "next export",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.4",
+    "ityped": "^1.0.3",
+    "material-ui-country-flags": "^3.0.1",
+    "material-ui-flags": "^1.2.4",
+    "next": "^11.1.2",
+    "nodemailer": "^6.6.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.15.4",
+    "react-world-flags": "^1.4.0",
+    "styled-components": "^5.3.1"
+  }
+}
