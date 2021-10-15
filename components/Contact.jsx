@@ -15,6 +15,7 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     @media only screen and (max-width: 480px) {
+        padding-top: 0px;
         width: 90%;
         flex-direction: column;
 
@@ -35,6 +36,7 @@ const Title = styled.h1`
     margin: 50px;
     margin-top: 0;
     @media only screen and (max-width: 480px) {
+        margin-left: 0px;
         width: 100%;
         font-size: 30px;
 
@@ -143,7 +145,7 @@ const Contact = () => {
     // NEXT_PUBLIC_API_URL = http://localhost:3000
 
     return (
-        <Container>
+        <Container id="contact">
             <Wrapper>
                 <FormContainer>
                     <Title>Coffee? <br /> Let's Get in Touch</Title>
@@ -160,7 +162,10 @@ const Contact = () => {
                         
                     </Form>
                 </FormContainer>
-                <AddressContainer>This is a placehodler for something meaningful</AddressContainer>
+                <AddressContainer>
+                    Open for Business Consulting, WebDev, Data Science projects and academic research.
+
+                </AddressContainer>
 
             </Wrapper>
             

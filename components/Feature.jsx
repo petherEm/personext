@@ -199,6 +199,7 @@ const Feature = () => {
                     <Desc>Head of Sales & Integrations, Financial Institutions</Desc>
 
                 </RightInfo>
+                
                 <Subtitle><h3>Education</h3></Subtitle>
                 <RightInfo>
                     <IconContainer>

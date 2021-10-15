@@ -95,9 +95,11 @@ const PortfolioItem = styled.div`
     }
 
 `
-const PortfolioInfo = styled.div` 
+const PortfolioInfo = styled.div`
+    background-color: white;
     height: 20%;
     width: 100%;
+    z-index: 99;
 `
 const ItemTitle = styled.h3`
     font-size: 20px;
@@ -111,11 +113,15 @@ const ItemTitle = styled.h3`
     
 `
 
-const PortfolioImg = styled.img` 
+const PortfolioImg = styled.img`
     width: 100%;
+    max-height: 200px;
     height: 50%;
     object-fit: cover;
+    
+    
 `
+
 const PortfolioDesc = styled.p`
     font-size: 18px;
     font-weight: 300;
@@ -163,17 +169,20 @@ const Service = () => {
     return (
         <>
         <ServiceContainer id="service">
-            <Title>My Portfolio</Title>
+            <Title>My Dev Portfolio</Title>
             <Wrapper>
                 <Top>
                     {
-                        projects.map(({name, content, image, technology, link},i) => (
-                            <a href={link} style={{textDecoration: 'none'}}>
-                                <PortfolioItem key={i}>
+                        projects.map(({name, content, image, technology, link},id) => (
+                            <a href={link} style={{textDecoration: 'none'}} target="_blank">
+                                <PortfolioItem key={id}>
                                     <PortfolioInfo>
                                         <ItemTitle>{name}</ItemTitle>
                                     </PortfolioInfo>
-                                    <PortfolioImg src={image}></PortfolioImg>
+                                    
+                                        <PortfolioImg src={image}></PortfolioImg>
+                                   
+                                    
                                     <PortfolioDesc>
                                         {content} 
                                         <PortfolioTech>
@@ -188,7 +197,7 @@ const Service = () => {
                 </Top>
                 
                 <Bottom>
-                    <Link href="/blog">
+                    <Link href="/portfolioFull">
                         <Button>See More</Button>
                     </Link>
                 </Bottom>

@@ -21,13 +21,13 @@ const Wrapper = styled.div`
     
 `
 
-const Blog = () => (
+const PortfolioFull = () => (
 
     <>
         <Layout>
         <ContainerBlog> 
                 <Wrapper>
-                    <h1>Blog/My Articles</h1>
+                    <h1>My Dev Portfolio</h1>
                     <h3>Under construction - will be up shortly</h3>
                 </Wrapper>
         </ContainerBlog>
@@ -38,4 +38,4 @@ const Blog = () => (
 
 )
 
-export default Blog;
+export default PortfolioFull;

@@ -42,7 +42,6 @@ const Signature = styled.div`
     float: left;
     font-size: 22px;
     font-weight: 200;
-    cursor: pointer;
 
     @media only screen and (max-width: 480px) {
         font-size: 15px;
@@ -63,18 +62,23 @@ const Footer = () => {
     return (
         <Wrapper>
             <LeftWrapper>
-            <Link href="http://www.piotrmaciejewski.com">
-                <Signature>Created by <b> Piotr Maciejewski</b></Signature>
-            </Link>
+            
+                <Signature>
+                    Created by 
+                    <Link href="http://www.piotrmaciejewski.com" >
+                        <b style={{cursor: 'pointer'}}> Piotr Maciejewski</b>
+                    </Link>
+                </Signature>
+            
             </LeftWrapper>
             <RightWrapper>
-                    <Link href="/">
+                    <Link href="https://www.linkedin.com/in/piotrek-maciejewski" target="_blank">
                         <MenuItem><LinkedIn style={{color: '#0f20b3'}, {fontSize: '30px'}}/></MenuItem>
                     </Link>
-                    <Link href="/">
+                    <Link href="https://github.com/petherEm" target="_blank">
                         <MenuItem><GitHub style={{color: '#0f20b3'}, {fontSize: '30px'}}/></MenuItem>
                     </Link>
-                    <Link href="/">
+                    <Link href="https://instagram.com" target="_blank">
                         <MenuItem><Instagram style={{color: '#0f20b3'}, {fontSize: '30px'}}/></MenuItem>
                     </Link>
             </RightWrapper>

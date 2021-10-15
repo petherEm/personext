@@ -143,7 +143,7 @@ const About = () => {
     useEffect(() => {
         init(textRef.current, {
             showCursor: false,
-            strings: ['Senior B2B Tech Sales', 'Full Stack Developer', 'MBA alumnus', 'Pythonista :)']
+            strings: ['Senior B2B Tech Sales', 'Full Stack Developer', 'Warwick MBA alumnus', 'Pythonista']
         });
     }, [])
 
