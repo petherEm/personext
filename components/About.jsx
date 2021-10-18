@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { init } from 'ityped'
 import styled from 'styled-components'
 import Image from 'next/image'
-import Piotr from '../public/bcgkrPiotr.png'
+import Piotr from '../public/mecasual.png'
 import AnimatedShapes from './AnimatedShapes'
 import Flag from 'react-world-flags'
 
@@ -173,7 +173,7 @@ const About = () => {
             </Left>
             <Right>
                     
-                        <Image src={Piotr} width={500} height={600} />
+                        <Image src={Piotr} width={500} height={680} />
                     
             </Right>
             {/* <AnimatedShapes /> */}

@@ -115,8 +115,9 @@ const ItemTitle = styled.h3`
 
 const PortfolioImg = styled.img`
     width: 100%;
-    max-height: 200px;
-    height: 50%;
+    /* max-height: 200px; */
+    height: 200px;
+    /* height: 50%; */
     object-fit: cover;
     
     

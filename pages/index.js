@@ -37,6 +37,7 @@ const ContainerPortfolio = styled.div`
 
 const ContainerContact = styled.div`
     height: auto;
+    
     overflow: hidden;
     position: relative;
 

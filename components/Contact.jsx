@@ -4,12 +4,16 @@ import { useForm } from 'react-hook-form'
 import axios from 'axios'
 
 const Container = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 90vh;
 
     
 `
 const Wrapper = styled.div`
     height: 100%;
+    width: 80%;
     padding: 20px;
     display: flex;
     align-items: center;

@@ -184,7 +184,7 @@ const Feature = () => {
                 Previously I was responsible for WU digital expansion and development of WU App and westernunion.com. I was integrating new, local payment methods, improving the customer onboarding and verification process. I held various Business, Operations and Compliance roles in ABN Amro Bank, Royal Bank of Scotland, State Street Bank and Western Union.
                 </Desc>
                 <Desc>
-                It all begun with Amstrad CPC 464 in the early 90s. Thanks to my father (Computer Scientist), I became passionate about Computer Science (programming and networking), and I still develop my passion for code, combining it with my professional path.
+                It all begun with Amstrad CPC 464 in the early 90s. Thanks to my father (Computer Scientist), I became passionate about Computer Science (programming and networking), and I am constantly developing my passion for code, combining it with my professional path.
                 </Desc>
                 <Desc>I am particularly interested in <b>Artificial Intelligence adoption across Financial Industry.</b></Desc>
                 <Button>Download CV</Button>
