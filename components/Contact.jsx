@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import styled from 'styled-components'
 import { useForm } from 'react-hook-form'
 import axios from 'axios'
+import emailjs from 'emailjs-com'
 
 const Container = styled.div`
     display: flex;
@@ -139,12 +140,23 @@ const Contact = () => {
 
     const { register, handleSubmit, errors, reset } = useForm();
 
-    // function onSubmitForm(values) {
-    //     let config = {
-    //         method: 'post',
-    //         url: `${process.env.NEXT_PUBLIC_API_URL}`
-    //     }
-    // }
+   
+    const formRef = useRef()
+    const [done, setDone] = useState(false)
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('gmail_peter', 'template_5o5istf', formRef.current, 'user_rGCw9OX0IbaWZvJa5GX5U')
+            .then((result) => {
+                console.log(result.text);
+                setDone(true);
+            }, (error) => {
+                console.log(error.text);
+            }
+            );
+    }
+
 
     // NEXT_PUBLIC_API_URL = http://localhost:3000
 
@@ -153,21 +165,22 @@ const Contact = () => {
             <Wrapper>
                 <FormContainer>
                     <Title>Coffee? <br /> Let's Get in Touch</Title>
-                    <Form >
+                    <Form ref={formRef} onSubmit={sendEmail}>
                         <LeftForm>
-                            <Input {...register('fullname', { required: true })} type="text" name="fullname" placeholder="Your Name" />
-                            <Input {...register('email', { required: true }, { minLength: 8 })} type="email" name="email" placeholder="Your Email" />
-                            <Input {...register('subject', { required: true })} type="text" name="subject" placeholder="Your subject" />
+                            <Input {...register('fullname', { required: true })} type="text" name="user_name" placeholder="Your Name" />
+                            <Input {...register('email', { required: true }, { minLength: 8 })} type="email" name="user_email" placeholder="Your Email" />
+                            <Input {...register('subject', { required: true })} type="text" name="user_subject" placeholder="Your subject" />
                         </LeftForm>
                         <RightForm>
-                            <TextArea {...register('textarea', { required: true })} type="text" name="textarea" placeholder="Your message"/>
-                            <Button>Submit</Button>
+                            <TextArea {...register('textarea', { required: true })} type="text" name="message" placeholder="Your message"/>
+                            <Button type="submit" value="Send">Submit</Button>
+                            {done && <h4 style={{color: "green"}}>Thank you for your message</h4> }
                         </RightForm>
                         
                     </Form>
                 </FormContainer>
                 <AddressContainer>
-                    Open for Business Consulting, WebDev, Data Science projects and academic research.
+                   
 
                 </AddressContainer>
 
