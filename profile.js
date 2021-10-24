@@ -19,7 +19,7 @@ export const projects = [
     {
         id: 3,
         name: "Crypto currencies market",
-        content: "Crypto coins listing - Coin Gecko API",
+        content: "Crypto coins listing - Coin Gecko API connected",
         image: "/portfolio_img/coingecko.png",
         technology: "#React #JS #Bootstrap4 #api",
         link: "https://pmcoins.netlify.app/"
@@ -34,11 +34,11 @@ export const projects = [
     },
     {
         id: 5,
-        name: "Renovation progress",
-        content: "Appartment renovation progress tracking website.",
-        image: "/portfolio_img/przejazd2.jpg",
-        technology: "#Bootstrap4, #JS, #HTML/CSS",
-        link: "https://petherem.github.io/appartment/index_fr.html"
+        name: "Western Union Clone",
+        content: "WU Austria - digital remittance service clone",
+        image: "/portfolio_img/wuclone.png",
+        technology: "#ReacJS, #JS, #api",
+        link: "https://wuaustria.netlify.app"
     },
     {
         id: 6,
@@ -50,11 +50,12 @@ export const projects = [
     },
     {
         id: 7,
-        name: "Club bible",
-        content: "Project to dispay basic info about any sport club",
-        image: "/portfolio_img/clubbible.png",
-        technology: "#JS, #HTML/CSS",
-        link: "https://petherem.github.io/clubbible/"
+        name: "Renovation progress",
+        content: "Appartment renovation progress tracking website.",
+        image: "/portfolio_img/przejazd2.jpg",
+        technology: "#Bootstrap4, #JS, #HTML/CSS",
+        link: "https://petherem.github.io/appartment/index_fr.html"
+        
     },
     {
         id: 8,
@@ -75,10 +76,18 @@ export const projects = [
     {
         id: 10,
         name: "Portfolio website",
-        content: "My first portfolio website in Flask.",
+        content: "My first portfolio website in Python Flask",
         image: "/portfolio_img/flaskwebsite.png",
         technology: "#Python #Flask #JS #HTML/CSS",
         link: "https://piotrma.herokuapp.com/"
+    },
+    {
+        id: 11,
+        name: "Club bible",
+        content: "Display basic info about any sport club",
+        image: "/portfolio_img/clubbible.png",
+        technology: "#JS, #HTML/CSS",
+        link: "https://petherem.github.io/clubbible/"
     }
 
 
