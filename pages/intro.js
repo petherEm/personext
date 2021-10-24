@@ -11,7 +11,7 @@ const Intro = () => {
     return (
         <Layout>
             <Container>
-            <h1>Wielka Dupa</h1>
+            <h1>Test</h1>
             </Container>
         </Layout>
         

@@ -28,7 +28,7 @@ const Wrapper = styled.div`
 `
 
 const FormContainer = styled.div`
-    width: 50%;
+    width: 70%;
     @media only screen and (max-width: 480px) {
         width: 100%;
         display: flex;
@@ -127,15 +127,6 @@ const Button = styled.button`
     }
 `
 
-const AddressContainer = styled.div`
-    width: 50%;
-
-    @media only screen and (max-width: 480px) {
-        display: none;
-        
-    }
-`
-
 const Contact = () => {
 
     const { register, handleSubmit, errors, reset } = useForm();
@@ -179,11 +170,6 @@ const Contact = () => {
                         
                     </Form>
                 </FormContainer>
-                <AddressContainer>
-                   
-
-                </AddressContainer>
-
             </Wrapper>
             
         </Container>

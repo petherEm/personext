@@ -102,7 +102,7 @@ const PortfolioInfo = styled.div`
     z-index: 99;
 `
 const ItemTitle = styled.h3`
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: blue;
     text-align: center;
@@ -124,7 +124,7 @@ const PortfolioImg = styled.img`
 `
 
 const PortfolioDesc = styled.p`
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     color: black;
     margin: 10px;

@@ -62,6 +62,7 @@ const Logo = styled.h1`
     font-weight: bold;
     text-decoration: crimson;
     cursor: pointer;
+    font-size: 32px;
 
     @media only screen and (max-width: 480px) {
         font-size: 25px;
@@ -83,7 +84,7 @@ const Menu = styled.ul`
 
 const MenuItem = styled.li`
     margin-right: 30px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
     list-style: none;

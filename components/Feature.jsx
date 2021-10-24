@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import styled from 'styled-components'
 import AnimatedShapes from './AnimatedShapes'
 import Image from 'next/image'
@@ -127,14 +128,14 @@ const IconContainer = styled.div`
 
 
 const Title = styled.span`
-    font-size: 70px;
+    font-size: 60px;
     @media only screen and (max-width: 480px) {
         font-size: 50px;
 
     }
 `
 const Subtitle = styled.span`
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     color: #333;
     margin-top: 20px;
@@ -146,7 +147,7 @@ const Subtitle = styled.span`
 const Desc = styled.p`
     width: 90%;
     line-height: 27px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
     color: black;
     margin-top: 20px;
@@ -181,13 +182,17 @@ const Feature = () => {
                 <Desc>I am digitizing the Payments and Remittance sector in Europe. I am a seasoned (14+ years) <b>Senior Manager in Banking & Finance industry. As a Head of Sales and Integrations at Western Union (NYSE: WU)</b>, I sell and integrate WU payments platform to Financial Institutions across EEA countries.
                 </Desc>
                 <Desc>My current role is spanning from contract negotiations, Business and Compliance requirements set (AMLD, PSD2, GDPR, MIFID) through solution design in a highly regulated financial industry.
-                Previously I was responsible for WU digital expansion and development of WU App and westernunion.com. I was integrating new, local payment methods, improving the customer onboarding and verification process. I held various Business, Operations and Compliance roles in ABN Amro Bank, Royal Bank of Scotland, State Street Bank and Western Union.
+                <br />Previously I was responsible for WU digital expansion and development of WU App and westernunion.com. I was integrating new, local payment methods, improving the customer onboarding and verification process. I held various Business, Operations and Compliance roles in ABN Amro Bank, Royal Bank of Scotland, State Street Bank and Western Union.
                 </Desc>
                 <Desc>
-                It all begun with Amstrad CPC 464 in the early 90s. Thanks to my father (Computer Scientist), I became passionate about Computer Science (programming and networking), and I am constantly developing my passion for code, combining it with my professional path.
-                </Desc>
-                <Desc>I am particularly interested in <b>Artificial Intelligence adoption across Financial Industry.</b></Desc>
-                <Button>Download CV</Button>
+                By passion, I am an aspiring <b>Full Stack Developer </b>(see my little portfolio). </Desc>
+                <Desc>I am also researching <b>Artificial Intelligence adoption across Financial Industry.</b></Desc>
+                
+
+                <Link href="https://www.linkedin.com/in/piotrek-maciejewski" target="_blank">
+                        <Button>Download CV</Button>
+                </Link>
+                
             </Left>
             <Right>
                 
