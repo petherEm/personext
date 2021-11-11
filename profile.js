@@ -14,7 +14,7 @@ export const projects = [
         content: "Project - Business website for Financial Advisory office",
         image: "/portfolio_img/joanna4.jpg",
         technology: "#Bootstrap4 #JS #HTML/CSS #api",
-        link: "http://jmfinanse.com"
+        link: "http://www.jfinanse.pl"
     },
     {
         id: 3,

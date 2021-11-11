@@ -78,9 +78,9 @@ const Footer = () => {
                     <Link href="https://github.com/petherEm" target="_blank">
                         <MenuItem><GitHub style={{color: '#0f20b3'}, {fontSize: '30px'}}/></MenuItem>
                     </Link>
-                    <Link href="https://instagram.com" target="_blank">
+                    {/* <Link href="https://instagram.com" target="_blank">
                         <MenuItem><Instagram style={{color: '#0f20b3'}, {fontSize: '30px'}}/></MenuItem>
-                    </Link>
+                    </Link> */}
             </RightWrapper>
                     
             

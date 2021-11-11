@@ -70,6 +70,10 @@ const Right = styled.div`
     display: flex;
     flex-direction: column;
 
+    -webkit-box-shadow: 8px 8px 24px -2px rgba(66, 68, 90, 0.53);
+    -moz-box-shadow: 8px 8px 24px -2px rgba(66, 68, 90, 0.53);
+    box-shadow: 8px 8px 24px -2px rgba(66, 68, 90, 0.53);
+
     @media only screen and (max-width: 480px) {
         width: 95%;
         height: 100%;
