@@ -1,7 +1,15 @@
 export const projects = [
     {
-        
         id: 1,
+        name: "Heliumverse",
+        content: "All-in WebApp over Helium concept",
+        image: "/portfolio_img/helium.png",
+        technology: "#NextJS, #api #MongoDB #styled components #mapbox",
+        link: "https://heliumverse.eu"
+    },
+    {
+        
+        id: 2,
         name: "Admin Dashboard",
         content: "Admin dashboard inspired by LamaDev",
         image: "/portfolio_img/admindash.png",
@@ -9,7 +17,7 @@ export const projects = [
         link: "https://pmadmindash.netlify.app/"    
     },
     {
-        id: 2,
+        id: 3,
         name: "Financial Advisory",
         content: "Project - Business website for Financial Advisory office",
         image: "/portfolio_img/joanna4.jpg",
@@ -17,7 +25,7 @@ export const projects = [
         link: "http://www.jfinanse.pl"
     },
     {
-        id: 3,
+        id: 4,
         name: "Crypto currencies market",
         content: "Crypto coins listing - Coin Gecko API connected",
         image: "/portfolio_img/coingecko.png",
@@ -25,7 +33,7 @@ export const projects = [
         link: "https://pmcoins.netlify.app/"
     },
     {
-        id: 4,
+        id: 5,
         name: "Biking blog",
         content: "Biking blog of few good friends loving cyclism.",
         image: "/portfolio_img/RR.jpg",
@@ -33,7 +41,7 @@ export const projects = [
         link: "http://rowerowyraj.eu"
     },
     {
-        id: 5,
+        id: 6,
         name: "Western Union Clone",
         content: "WU Austria - digital remittance service clone",
         image: "/portfolio_img/wuclone.png",
@@ -41,7 +49,23 @@ export const projects = [
         link: "https://wuaustria.netlify.app"
     },
     {
-        id: 6,
+        id: 7,
+        name: "K&H App with WU",
+        content: "Bank app with Money Transfers",
+        image: "/portfolio_img/K_H.png",
+        technology: "#NextJS, #styled components",
+        link: "https://knh-seven.vercel.app/"
+    },
+    {
+        id: 8,
+        name: "VOD service",
+        content: "IMDB api feed",
+        image: "/portfolio_img/vodservice.png",
+        technology: "#NextJS, #api #tailwindCSS",
+        link: "https://vodservice.vercel.app/"
+    },
+    {
+        id: 9,
         name: "Map of WU locations",
         content: "Mapbox based map of WU locations in Germany",
         image: "/portfolio_img/mapgermany.png",
@@ -49,7 +73,7 @@ export const projects = [
         link: "https://wu-no-postbank.netlify.app/"
     },
     {
-        id: 7,
+        id: 10,
         name: "Renovation progress",
         content: "Appartment renovation progress tracking website.",
         image: "/portfolio_img/przejazd2.jpg",
@@ -58,7 +82,7 @@ export const projects = [
         
     },
     {
-        id: 8,
+        id: 11,
         name: "Travel Agency",
         content: "Landing page layout with movie background.",
         image: "/portfolio_img/travelagency.png",
@@ -66,7 +90,7 @@ export const projects = [
         link: "https://pmtravel.netlify.app/"
     },
     {
-        id: 9,
+        id: 12,
         name: "eCommerce website",
         content: "eCommerce website inspired by LamaDev",
         image: "/portfolio_img/ecommerce.png",
@@ -74,7 +98,7 @@ export const projects = [
         link: "https://pmshop.netlify.app/"
     },
     {
-        id: 10,
+        id: 13,
         name: "Portfolio website",
         content: "My first portfolio website in Python Flask",
         image: "/portfolio_img/flaskwebsite.png",
@@ -82,7 +106,7 @@ export const projects = [
         link: "https://piotrma.herokuapp.com/"
     },
     {
-        id: 11,
+        id: 14,
         name: "Club bible",
         content: "Display basic info about any sport club",
         image: "/portfolio_img/clubbible.png",

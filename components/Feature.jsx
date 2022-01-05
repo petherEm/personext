@@ -132,9 +132,11 @@ const IconContainer = styled.div`
 
 
 const Title = styled.span`
+    margin-top: 45px;
     font-size: 60px;
     @media only screen and (max-width: 480px) {
         font-size: 50px;
+        margin-top: 30px;
 
     }
 `
@@ -156,7 +158,7 @@ const Desc = styled.p`
     color: black;
     margin-top: 20px;
     @media only screen and (max-width: 480px) {
-        font-size: 20px;
+        font-size: 18px;
 
     }
 `

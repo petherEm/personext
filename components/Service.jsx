@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link';
-import { projects } from '../profile'
+import { projectsShort } from '../profileShort'
 
 
 const ServiceContainer = styled.div`
@@ -64,6 +64,7 @@ const Bottom = styled.div`
 `
 
 const Title = styled.h1`
+    margin-top: 80px;
     text-align: center;
     font-size: 50px;
     @media only screen and (max-width: 480px) {
@@ -169,12 +170,12 @@ const Button = styled.button`
 const Service = () => {
     return (
         <>
-        <ServiceContainer id="service">
+        <ServiceContainer>
             <Title>My Dev Portfolio</Title>
             <Wrapper>
                 <Top>
                     {
-                        projects.map(({name, content, image, technology, link},id) => (
+                        projectsShort.map(({name, content, image, technology, link},id) => (
                             <a href={link} style={{textDecoration: 'none'}} target="_blank">
                                 <PortfolioItem key={id}>
                                     <PortfolioInfo>

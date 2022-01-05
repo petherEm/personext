@@ -38,6 +38,7 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
+    
     width: 60%;
     font-size: 50px;
     font-weight: 300;

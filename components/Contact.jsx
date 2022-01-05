@@ -105,7 +105,6 @@ const TextArea = styled.textarea`
 
     @media only screen and (max-width: 480px) {
         width: 90%;
-        
         margin-top: 10px;
         
         
@@ -148,8 +147,6 @@ const Contact = () => {
             );
     }
 
-
-    // NEXT_PUBLIC_API_URL = http://localhost:3000
 
     return (
         <Container id="contact">
