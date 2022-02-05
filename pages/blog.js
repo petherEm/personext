@@ -4,6 +4,12 @@ import styled from "styled-components";
 import Link from "next/link";
 import { articles } from "../articles";
 
+
+const Container = styled.div` 
+    overflow: hidden;
+
+`
+
 const ContainerBlog = styled.div`
     max-height: auto;
     overflow: hidden;
@@ -75,7 +81,7 @@ const ReadMore = styled.p`
 
 const Blog = () => (
 
-    <>
+    <Container>
         
         <ContainerBlog>
                 <Layout>
@@ -111,9 +117,7 @@ const Blog = () => (
         </ContainerBlog>
         <Footer />
         
-        
-        
-    </>
+    </Container>
 
 
 )

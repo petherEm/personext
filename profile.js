@@ -5,7 +5,8 @@ export const projects = [
         content: "All-in WebApp over Helium concept",
         image: "/portfolio_img/helium.png",
         technology: "#NextJS, #api #MongoDB #styled components #mapbox",
-        link: "https://heliumverse.eu"
+        link: "https://heliumverse.eu",
+        
     },
     {
         
@@ -104,16 +105,6 @@ export const projects = [
         image: "/portfolio_img/flaskwebsite.png",
         technology: "#Python #Flask #JS #HTML/CSS",
         link: "https://piotrma.herokuapp.com/"
-    },
-    {
-        id: 14,
-        name: "Club bible",
-        content: "Display basic info about any sport club",
-        image: "/portfolio_img/clubbible.png",
-        technology: "#JS, #HTML/CSS",
-        link: "https://petherem.github.io/clubbible/"
     }
-
-
 
 ]

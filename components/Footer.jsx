@@ -1,91 +1,87 @@
-import React from 'react'
-import styled from 'styled-components'
-import Link from 'next/link';
-import { Mail, LinkedIn, GitHub, Instagram } from '@material-ui/icons'
+import React from "react";
+import styled from "styled-components";
+import Link from "next/link";
+import { Mail, LinkedIn, GitHub, Instagram } from "@material-ui/icons";
 
 const Wrapper = styled.div`
-    background-color: #333;
-    color: white;
-    width: 100%;
-    height: 80px;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  height: 80px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    @media only screen and (max-width: 480px) {
-        padding: 5px 10px;
-       
-
-    }
-    
-`
+  @media only screen and (max-width: 480px) {
+    padding: 5px 10px;
+  }
+`;
 const RightWrapper = styled.div`
-    width: 50%;
-    display: flex;
-    @media only screen and (max-width: 480px) {
-        font-size: 15px;
-    }
-`
+  width: 50%;
+  display: flex;
+  @media only screen and (max-width: 480px) {
+    font-size: 15px;
+  }
+`;
 const LeftWrapper = styled.div`
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 40px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
 
-    @media only screen and (max-width: 480px) {
-        font-size: 15px;
-    }
-    
-`
+  @media only screen and (max-width: 480px) {
+    font-size: 15px;
+  }
+`;
 const Signature = styled.div`
-    float: left;
-    font-size: 22px;
-    font-weight: 200;
+  /* float: left; */
+  font-size: 22px;
+  font-weight: 200;
+  margin-right: 20px;
 
-    @media only screen and (max-width: 480px) {
-        font-size: 15px;
-    }
-`
+  @media only screen and (max-width: 480px) {
+    font-size: 15px;
+  }
+`;
 
 const MenuItem = styled.li`
-    margin-right: 30px;
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    list-style: none;
-    cursor: pointer;
-
-`
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  list-style: none;
+  cursor: pointer;
+`;
 
 const Footer = () => {
-    return (
-        <Wrapper>
-            <LeftWrapper>
-            
-                <Signature>
-                    Created by 
-                    <Link href="http://www.piotrmaciejewski.com" >
-                        <b style={{cursor: 'pointer'}}> Piotr Maciejewski</b>
-                    </Link>
-                </Signature>
-            
-            </LeftWrapper>
-            <RightWrapper>
-                    <Link href="https://www.linkedin.com/in/piotrek-maciejewski" target="_blank">
-                        <MenuItem><LinkedIn style={{color: '#0f20b3'}, {fontSize: '30px'}}/></MenuItem>
-                    </Link>
-                    <Link href="https://github.com/petherEm" target="_blank">
-                        <MenuItem><GitHub style={{color: '#0f20b3'}, {fontSize: '30px'}}/></MenuItem>
-                    </Link>
-                    {/* <Link href="https://instagram.com" target="_blank">
+  return (
+    <Wrapper>
+      <Signature>
+        Created by
+        <Link href="http://www.piotrmaciejewski.com">
+          <b style={{ cursor: "pointer" }}> Piotr Maciejewski</b>
+        </Link>
+      </Signature>
+
+      <Link
+        href="https://www.linkedin.com/in/piotrek-maciejewski"
+        target="_blank"
+      >
+        <MenuItem>
+          <LinkedIn style={({ color: "#0f20b3" }, { fontSize: "30px" })} />
+        </MenuItem>
+      </Link>
+      <Link href="https://github.com/petherEm" target="_blank">
+        <MenuItem>
+          <GitHub style={({ color: "#0f20b3" }, { fontSize: "30px" })} />
+        </MenuItem>
+      </Link>
+      {/* <Link href="https://instagram.com" target="_blank">
                         <MenuItem><Instagram style={{color: '#0f20b3'}, {fontSize: '30px'}}/></MenuItem>
                     </Link> */}
-            </RightWrapper>
-                    
-            
-        </Wrapper>
-    )
-}
+    </Wrapper>
+  );
+};
 
-export default Footer
+export default Footer;

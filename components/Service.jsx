@@ -184,7 +184,6 @@ const Service = () => {
                                     
                                         <PortfolioImg src={image}></PortfolioImg>
                                    
-                                    
                                     <PortfolioDesc>
                                         {content} 
                                         <PortfolioTech>

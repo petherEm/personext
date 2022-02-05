@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import Link from 'next/link';
 
@@ -34,6 +34,10 @@ const Ul = styled.ul`
 `
 
 const RightNav = ({ open }) => {
+
+   
+
+    
     return (
         <Ul open={open}>
             <Link href="/">

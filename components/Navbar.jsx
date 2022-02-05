@@ -97,6 +97,22 @@ const MenuItem = styled.li`
 
 `
 
+const MenuItemChallenge = styled.li` 
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #bd3b14;
+    list-style: none;
+    border: 1px solid red;
+    cursor: pointer;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 15px;
+
+    }   
+
+`
+
 const Button = styled.button`
     border: 2px solid white;
     padding: 10px 15px;
@@ -127,6 +143,9 @@ const Navbar = () => (
                     <Link href="/#service">
                         <MenuItem>Portfolio</MenuItem>
                     </Link>
+                    {/* <Link href="/#service">
+                        <MenuItemChallenge>Challenge</MenuItemChallenge>
+                    </Link> */}
                     <Link href="/blog">
                         <MenuItem>Blog</MenuItem>
                     </Link>

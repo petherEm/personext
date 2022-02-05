@@ -37,15 +37,16 @@ const StyledBurger = styled.div`
         &:nth-child(3) {
         transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
         }
-
     }
     
-
 `
 
 const Burger = () => {
 
     const [open, setOpen] = useState(false)
+        const toggle = () => setOpen(!open);
+        const hide = () => setOpen(false);
+        const show = () => setOpen(true);
 
     return (
         <>
@@ -54,7 +55,7 @@ const Burger = () => {
                 <div />
                 <div />
             </StyledBurger>
-            <RightNav open={open}/>
+            <RightNav open={open} />
             
         </>
     )
