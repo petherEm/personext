@@ -39,5 +39,25 @@ export const challengeInQ1 = [
         technology: "#NextJS #TailwindCSS #api",
         link: "https://playerbible.vercel.app/"    
     },
+    {
+        
+        id: 5,
+        day: 5,
+        name: "Mockups - Paysafe with WU",
+        content: "Mockups for new payment method addition",
+        image: "/portfolio_img/PaysafeMockups.png",
+        technology: "#NextJS #TailwindCSS #Chartjs",
+        link: "https://wupaysafe.vercel.app/"    
+    },
+    {
+        
+        id: 6,
+        day: 6,
+        name: "CharJS use with NextJS",
+        content: "Business case logic with ChartJS in NextJS",
+        image: "/portfolio_img/PaysafeBiz.png",
+        technology: "#NextJS #TailwindCSS #Chartjs",
+        link: "https://wupaysafe.vercel.app/business"    
+    },
     
 ]
