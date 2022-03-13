@@ -53,11 +53,41 @@ export const challengeInQ1 = [
         
         id: 6,
         day: 6,
-        name: "CharJS use with NextJS",
+        name: "ChartJS use with NextJS",
         content: "Business case logic with ChartJS in NextJS",
         image: "/portfolio_img/PaysafeBiz.png",
         technology: "#NextJS #TailwindCSS #Chartjs",
         link: "https://wupaysafe.vercel.app/business"    
+    },
+    {
+        
+        id: 7,
+        day: 7,
+        name: "Pizza order with NextJS",
+        content: "Pizza ordering website + PayPal",
+        image: "/portfolio_img/pizzunia.png",
+        technology: "#NextJS #TailwindCSS #MongoDB #PayPal api",
+        link: "https://pizzunia.vercel.app/"    
+    },
+    {
+        
+        id: 8,
+        day: 8,
+        name: "Medium Clone with NextJS",
+        content: "Blog app with comments, inspired by PapaReact",
+        image: "/portfolio_img/medium.png",
+        technology: "#NextJS #TailwindCSS #Sanity",
+        link: "https://blogers.vercel.app/"    
+    },
+    {
+        
+        id: 9,
+        day: 9,
+        name: "Pizza order 2nd approach",
+        content: "Pizza order website",
+        image: "/portfolio_img/pizzunia2.png",
+        technology: "#NextJS #TailwindCSS #MongoDB",
+        link: "https://pizzawarsaw.vercel.app/"    
     },
     
 ]
