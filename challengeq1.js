@@ -84,10 +84,30 @@ export const challengeInQ1 = [
         id: 9,
         day: 9,
         name: "Pizza order 2nd approach",
-        content: "Pizza order website",
+        content: "Another pizza order website to master NextJS + TailwindCSS",
         image: "/portfolio_img/pizzunia2.png",
         technology: "#NextJS #TailwindCSS #MongoDB",
         link: "https://pizzawarsaw.vercel.app/"    
+    },
+    {
+        
+        id: 10,
+        day: 10,
+        name: "New Admin dashboard",
+        content: "Modern Admin dashboard, recreated based on LamaDev tutorial.",
+        image: "/portfolio_img/admin44.png",
+        technology: "#ReactJS #Sass #Recharts",
+        link: "https://new-admin-snowy.vercel.app/"    
+    },
+    {
+        
+        id: 11,
+        day: 11,
+        name: "Expense Tracker",
+        content: "Simple expense tracker to master VanillaJS",
+        image: "/portfolio_img/ExpenseTracker.png",
+        technology: "#VanillaJS",
+        link: "https://petherem.github.io/expense_track/"    
     },
     
 ]
