@@ -155,7 +155,7 @@ const Feature = () => {
       <Wrapper>
         <Left>
           <Title>
-            <b>never</b> stop learning.
+            <b>never</b> stop learning
             <br />
           </Title>
           {/* <Subtitle>About Me</Subtitle> */}

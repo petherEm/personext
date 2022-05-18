@@ -176,7 +176,7 @@ const PortfolioFull = () => (
             </strong>
           </Intro>
           <Intro>
-            I am currently undertaking <strong>"50 projects in Q1" challenge</strong> to master
+            I am currently undertaking <strong>"50 projects in the 1st half of 2022" challenge</strong> to master
             my VanillaJS, React and Python skills.{" "}
             <Link href="#challenge"><strong style={{ cursor: 'pointer', color: 'crimson'}}>Follow my progress here.</strong></Link>
           </Intro>
@@ -199,7 +199,7 @@ const PortfolioFull = () => (
             ))}
           </Top>
           <Intro>
-            <Title>50 Projects in Q1</Title>
+            <Title>50 Projects in H1 2022</Title>
           </Intro>
           <Top id="challenge">
             {challengeInQ1.map(({ day, name, content, image, technology, link }, id) => (

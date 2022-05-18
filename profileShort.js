@@ -10,11 +10,11 @@ export const projectsShort = [
     {
         
         id: 2,
-        name: "Admin Dashboard",
-        content: "Admin dashboard inspired by LamaDev",
-        image: "/portfolio_img/admindash.png",
-        technology: "#ReacJS, #JS, #api",
-        link: "https://pmadmindash.netlify.app/"    
+        name: "New Admin dashboard",
+        content: "Modern Admin dashboard, recreated based on LamaDev tutorial.",
+        image: "/portfolio_img/admin44.png",
+        technology: "#ReactJS #Sass #Recharts",
+        link: "https://new-admin-snowy.vercel.app/"     
     },
     {
         id: 3,
@@ -90,10 +90,37 @@ export const projectsShort = [
     },
     {
         id: 12,
-        name: "Portfolio website",
-        content: "My first portfolio website in Python Flask",
-        image: "/portfolio_img/flaskwebsite.png",
-        technology: "#Python #Flask #JS #HTML/CSS",
-        link: "https://piotrma.herokuapp.com/"
+        name: "Event Website",
+        content: "Cycling trip event with Mapbox and tailwindCSS",
+        image: "/portfolio_img/balaton.png",
+        technology: "#Mapbox, #NextJS, #tailwindCSS",
+        link: "https://balaton.vercel.app/"
+    },
+    {
+        id: 13,
+        name: "Professor Portfolio",
+        content: "Academic researcher portfolio - template based",
+        image: "/portfolio_img/mama.png",
+        technology: "#NextJS, #VanillaJS",
+        link: "https://www.alinamaciejewska.pl" 
+    },
+    {
+        
+        id: 14,
+        name: "Landing Page",
+        content: "Tailwind training portfolio website with NextJS (TraversyMedia inspired)",
+        image: "/portfolio_img/manageapp.png",
+        technology: "#NextJS, #tailwindCSS",
+        link: "https://tailwindtraining.vercel.app/"    
+    },
+    {
+        
+        id: 15,
+        day: 15,
+        name: "Mockups - Paysafe with WU",
+        content: "Mockups for new payment method addition",
+        image: "/portfolio_img/PaysafeMockups.png",
+        technology: "#NextJS #tailwindCSS #Chartjs",
+        link: "https://wupaysafe.vercel.app/"    
     },
 ]
