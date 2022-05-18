@@ -130,7 +130,7 @@ const About = () => {
         "Senior B2B Tech Sales",
         "Full Stack Developer",
         "Warwick MBA alumnus",
-        "Pythonista",
+        "Pythonist",
       ],
     });
   }, []);
