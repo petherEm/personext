@@ -163,4 +163,13 @@ export const challengeInQ1 = [
     technology: "#NextJS #TailwindCSS",
     link: "https://colorpicker-ochre.vercel.app/",
   },
+  {
+    id: 19,
+    day: 19,
+    name: "Food & cuisine project",
+    content: "API and search with NextJS, TailwindCSS",
+    image: "/portfolio_img/fudtruck.png",
+    technology: "#api, #NextJS #TailwindCSS",
+    link: "https://fudtruck.vercel.app/",
+  },
 ];
