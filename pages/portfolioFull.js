@@ -199,7 +199,7 @@ const PortfolioFull = () => (
             ))}
           </Top>
           <Intro>
-            <Title>50 Projects in H1 2022</Title>
+            <Title>50 Projects in 2022</Title>
           </Intro>
           <Top id="challenge">
             {challengeInQ1.map(({ day, name, content, image, technology, link }, id) => (

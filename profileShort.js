@@ -116,11 +116,28 @@ export const projectsShort = [
     {
         
         id: 15,
-        day: 15,
         name: "Mockups - Paysafe with WU",
         content: "Mockups for new payment method addition",
         image: "/portfolio_img/PaysafeMockups.png",
         technology: "#NextJS #tailwindCSS #Chartjs",
         link: "https://wupaysafe.vercel.app/"    
     },
+    {
+        
+        id: 16,
+        name: "Blog",
+        content: "Blog website on Sanity, built with NextJS",
+        image: "/portfolio_img/bloggy.png",
+        technology: "#NextJS, #TailwindCSS #TypeScript #api",
+        link: "https://bloggy-ecru.vercel.app/"    
+    },
+    {
+        
+        id: 17,
+        name: "Map dashboard",
+        content: "WU mapping with Mapbox API",
+        image: "/portfolio_img/mappy.png",
+        technology: "#Mapbox #NextJS, #TailwindCSS",
+        link: "https://mapboxwu.vercel.app/"    
+    }
 ]
