@@ -16,6 +16,14 @@ export const projectsShort = [
     link: "https://new-admin-snowy.vercel.app/",
   },
   {
+    id: 21,
+    name: "eCommerce on Sanity ",
+    content: "eCommerce website built with Sanity and NextJS. Learning path from JSMastery",
+    image: "/portfolio_img/nextcommerce.png",
+    technology: "#Sanity #NextJS",
+    link: "https://nextcommerce-one-mu.vercel.app",
+  },
+  {
     id: 3,
     name: "Financial Advisory",
     content: "Project - Business website for Financial Advisory office",
@@ -64,14 +72,6 @@ export const projectsShort = [
     link: "https://vodservice.vercel.app/",
   },
   {
-    id: 9,
-    name: "Map of WU locations",
-    content: "Mapbox based map of WU locations in Germany",
-    image: "/portfolio_img/mapgermany.png",
-    technology: "#ReacJS, #JS, #api #mapbox",
-    link: "https://wu-no-postbank.netlify.app/",
-  },
-  {
     id: 10,
     name: "Travel Agency",
     content: "Landing page layout with movie background.",
@@ -79,14 +79,7 @@ export const projectsShort = [
     technology: "#JS, #HTML/CSS",
     link: "https://pmtravel.netlify.app/",
   },
-  {
-    id: 11,
-    name: "eCommerce website",
-    content: "eCommerce website inspired by LamaDev",
-    image: "/portfolio_img/ecommerce.png",
-    technology: "#ReacJS, #JS, #api",
-    link: "https://pmshop.netlify.app/",
-  },
+ 
   {
     id: 12,
     name: "Event Website",
@@ -122,7 +115,7 @@ export const projectsShort = [
   },
   {
     id: 16,
-    name: "Blog",
+    name: "My Blog",
     content: "Blog website on Sanity, built with NextJS",
     image: "/portfolio_img/bloggy.png",
     technology: "#NextJS, #TailwindCSS #TypeScript #api",
@@ -144,4 +137,12 @@ export const projectsShort = [
     technology: "#api, #NextJS #TailwindCSS",
     link: "https://fudtruck.vercel.app/",
   },
+  {
+    id: 19,
+    name: "Booking.com clone",
+    content: "Part one of booking.com clone to deepen NextJS and TailwindCSS experience.",
+    image: "/portfolio_img/buking.png",
+    technology: "#NextJS #TailwindCSS, #api",
+    link: "https://bukingapp.vercel.app/",
+  }
 ];

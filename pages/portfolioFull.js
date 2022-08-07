@@ -30,8 +30,6 @@ const Wrapper = styled.div`
   @media only screen and (max-width: 480px) {
     height: auto;
   }
-
-  
 `;
 const Intro = styled.div`
   width: 80%;
@@ -60,10 +58,13 @@ const Top = styled.div`
 `;
 const Title = styled.h1`
   margin-top: 80px;
+  margin-bottom: 140px;
   text-align: center;
   font-size: 50px;
   @media only screen and (max-width: 480px) {
     font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 `;
 const PortfolioList = styled.div``;
@@ -99,7 +100,6 @@ const PortfolioInfoChallenge = styled.div`
   z-index: 99;
 `;
 
-
 const ItemTitle = styled.h3`
   font-size: 18px;
   font-weight: bold;
@@ -111,7 +111,6 @@ const ItemTitle = styled.h3`
 `;
 
 const ItemTitleChallenge = styled.h3`
-  
   font-size: 18px;
   font-weight: bold;
   color: crimson;
@@ -122,16 +121,13 @@ const ItemTitleChallenge = styled.h3`
 `;
 
 const ChallengeNumber = styled.h3`
-  
   display: flex;
   justify-content: center;
   align-items: center;
   color: crimson;
   font-size: 18px;
   font-weight: bold;
-
-
-`
+`;
 
 const PortfolioImg = styled.img`
   width: 100%;
@@ -176,9 +172,47 @@ const PortfolioFull = () => (
             </strong>
           </Intro>
           <Intro>
-            I am currently undertaking <strong>"50 projects in the 1st half of 2022" challenge</strong> to master
-            my VanillaJS, React and Python skills.{" "}
-            <Link href="#challenge"><strong style={{ cursor: 'pointer', color: 'crimson'}}>Follow my progress here.</strong></Link>
+            I am currently challenging myself <strong>to build 50 side job projects in 2022
+            fostering my stack (Vanilla JS, React/NextJS, TailwindCSS, Styled
+            Components, MongoDB, Firebase).</strong> My current responsibilities in Western Union among the others require more Data Science, hence Python (Pandas, Numpy) expertise. I will be adding some of the interesting Python projects as well.
+           
+
+            <br />
+            <br />
+            <Link href="#other">
+              <p style={{ cursor: "pointer", color: "blue" }}>
+                Check also my other, previous projects here
+              </p>
+            </Link>
+          </Intro>
+          <Top id="challenge">
+            {challengeInQ1.map(
+              ({ day, name, content, image, technology, link }, id) => (
+                <a
+                  href={link}
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  <PortfolioItem key={id}>
+                    <PortfolioInfoChallenge>
+                      <ChallengeNumber>Day: {day}</ChallengeNumber>
+                      <ItemTitleChallenge>{name}</ItemTitleChallenge>
+                    </PortfolioInfoChallenge>
+
+                    <PortfolioImg src={image}></PortfolioImg>
+
+                    <PortfolioDesc>
+                      {content}
+                      <PortfolioTech>{technology}</PortfolioTech>
+                    </PortfolioDesc>
+                  </PortfolioItem>
+                </a>
+              )
+            )}
+          </Top>
+
+          <Intro id="other">
+            <Title>Other projects</Title>
           </Intro>
           <Top>
             {projects.map(({ name, content, image, technology, link }, id) => (
@@ -187,28 +221,6 @@ const PortfolioFull = () => (
                   <PortfolioInfo>
                     <ItemTitle>{name}</ItemTitle>
                   </PortfolioInfo>
-
-                  <PortfolioImg src={image}></PortfolioImg>
-
-                  <PortfolioDesc>
-                    {content}
-                    <PortfolioTech>{technology}</PortfolioTech>
-                  </PortfolioDesc>
-                </PortfolioItem>
-              </a>
-            ))}
-          </Top>
-          <Intro>
-            <Title>50 Projects in 2022</Title>
-          </Intro>
-          <Top id="challenge">
-            {challengeInQ1.map(({ day, name, content, image, technology, link }, id) => (
-              <a href={link} style={{ textDecoration: "none" }} target="_blank">
-                <PortfolioItem key={id}>
-                  <PortfolioInfoChallenge>
-                    <ChallengeNumber>Day: {day}</ChallengeNumber>
-                    <ItemTitleChallenge>{name}</ItemTitleChallenge>
-                  </PortfolioInfoChallenge>
 
                   <PortfolioImg src={image}></PortfolioImg>
 
