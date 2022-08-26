@@ -217,4 +217,13 @@ export const challengeInQ1 = [
     technology: "#TailwindCSS #NextJS",
     link: "https://shortenerpm.vercel.app/",
   },
+  {
+    id: 25,
+    day: 25,
+    name: "QR Code generator",
+    content: "Project from Brad Traversy website",
+    image: "/portfolio_img/qrcode.png",
+    technology: "#TailwindCSS #VanillaJS #qrcode",
+    link: "https://qrcoder-three.vercel.app/",
+  },
 ];

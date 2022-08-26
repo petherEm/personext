@@ -144,5 +144,13 @@ export const projectsShort = [
     image: "/portfolio_img/buking.png",
     technology: "#NextJS #TailwindCSS, #api",
     link: "https://bukingapp.vercel.app/",
-  }
+  },
+  {
+    id: 20,
+    name: "QR Code generator",
+    content: "Project from Brad Traversy YT channel. QR Code generator in VanillaJS",
+    image: "/portfolio_img/qrcode.png",
+    technology: "#TailwindCSS #VanillaJS #qrcode",
+    link: "https://qrcoder-three.vercel.app/",
+  },
 ];

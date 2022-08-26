@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Image from "next/image";
 import Link from "next/link";
 import { Mail, LinkedIn, GitHub, Instagram } from "@material-ui/icons";
 import Burger from "./Burger";
@@ -45,14 +46,11 @@ const Right = styled.div`
   }
 `;
 
-const Logo = styled.h1`
-  font-weight: bold;
-  text-decoration: crimson;
+const Logo = styled.div`
   cursor: pointer;
-  font-size: 32px;
+  margin-top: 20px;
 
   @media only screen and (max-width: 480px) {
-    font-size: 25px;
   }
 `;
 
@@ -110,7 +108,9 @@ const Navbar = () => (
     <Wrapper>
       <Left>
         <Link href="/">
-          <Logo>&lt;PM&gt;</Logo>
+          <Logo>
+            <Image src="/logo.svg" width="80" height="80" alt="logo" />
+          </Logo>
         </Link>
 
         <Menu>
