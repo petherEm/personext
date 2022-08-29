@@ -49,6 +49,7 @@ const Right = styled.div`
 const Logo = styled.div`
   cursor: pointer;
   margin-top: 20px;
+  margin-bottom: 16px;
 
   @media only screen and (max-width: 480px) {
   }

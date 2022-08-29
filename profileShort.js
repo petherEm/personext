@@ -18,7 +18,8 @@ export const projectsShort = [
   {
     id: 21,
     name: "eCommerce on Sanity ",
-    content: "eCommerce website built with Sanity and NextJS. Learning path from JSMastery",
+    content:
+      "eCommerce website built with Sanity and NextJS. Learning path from JSMastery",
     image: "/portfolio_img/nextcommerce.png",
     technology: "#Sanity #NextJS",
     link: "https://nextcommerce-one-mu.vercel.app",
@@ -79,7 +80,7 @@ export const projectsShort = [
     technology: "#JS, #HTML/CSS",
     link: "https://pmtravel.netlify.app/",
   },
- 
+
   {
     id: 12,
     name: "Event Website",
@@ -140,7 +141,8 @@ export const projectsShort = [
   {
     id: 19,
     name: "Booking.com clone",
-    content: "Part one of booking.com clone to deepen NextJS and TailwindCSS experience.",
+    content:
+      "Part one of booking.com clone to deepen NextJS and TailwindCSS experience.",
     image: "/portfolio_img/buking.png",
     technology: "#NextJS #TailwindCSS, #api",
     link: "https://bukingapp.vercel.app/",
@@ -148,9 +150,19 @@ export const projectsShort = [
   {
     id: 20,
     name: "QR Code generator",
-    content: "Project from Brad Traversy YT channel. QR Code generator in VanillaJS",
+    content:
+      "Project from Brad Traversy YT channel. QR Code generator in VanillaJS",
     image: "/portfolio_img/qrcode.png",
     technology: "#TailwindCSS #VanillaJS #qrcode",
     link: "https://qrcoder-three.vercel.app/",
+  },
+  {
+    id: 21,
+    name: "BankApp landing Page",
+    content:
+      "Inspiration from JavaScript Mastery to boost React/Next learnings along with TailwindCSS",
+    image: "/portfolio_img/bankapp.png",
+    technology: "#NextJS #TailwindCSS #VanillaJS",
+    link: "https://bankapp-seven.vercel.app/",
   },
 ];

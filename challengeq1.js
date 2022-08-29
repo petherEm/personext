@@ -176,7 +176,8 @@ export const challengeInQ1 = [
     id: 20,
     day: 20,
     name: "Booking.com clone",
-    content: "Part one of booking.com clone to deepen NextJS and TailwindCSS experience",
+    content:
+      "Part one of booking.com clone to deepen NextJS and TailwindCSS experience",
     image: "/portfolio_img/buking.png",
     technology: "#NextJS #TailwindCSS, #api",
     link: "https://bukingapp.vercel.app/",
@@ -185,7 +186,8 @@ export const challengeInQ1 = [
     id: 21,
     day: 21,
     name: "eCommerce on Sanity ",
-    content: "eCommerce website built with Sanity and NextJS. Learning path from JSMastery",
+    content:
+      "eCommerce website built with Sanity and NextJS. Learning path from JSMastery",
     image: "/portfolio_img/nextcommerce.png",
     technology: "#Sanity #NextJS",
     link: "https://nextcommerce-one-mu.vercel.app",
@@ -225,5 +227,15 @@ export const challengeInQ1 = [
     image: "/portfolio_img/qrcode.png",
     technology: "#TailwindCSS #VanillaJS #qrcode",
     link: "https://qrcoder-three.vercel.app/",
+  },
+  {
+    id: 26,
+    day: 26,
+    name: "BankApp landing Page",
+    content:
+      "Inspiration from JavaScript Mastery to boost React/Next learnings along with TailwindCSS",
+    image: "/portfolio_img/bankapp.png",
+    technology: "#NextJS #TailwindCSS #VanillaJS",
+    link: "https://bankapp-seven.vercel.app/",
   },
 ];
