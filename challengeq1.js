@@ -199,7 +199,7 @@ export const challengeInQ1 = [
     content: "Project from Brad Traversy TailwindCSS course on Udemy",
     image: "/portfolio_img/loopstudio.png",
     technology: "#TailwindCSS #NextJS",
-    link: "https://nextcommerce-one-mu.vercel.app",
+    link: "https://tailwindloops.vercel.app/",
   },
   {
     id: 23,
@@ -237,5 +237,15 @@ export const challengeInQ1 = [
     image: "/portfolio_img/bankapp.png",
     technology: "#NextJS #TailwindCSS #VanillaJS",
     link: "https://bankapp-seven.vercel.app/",
+  },
+  {
+    id: 27,
+    day: 27,
+    name: "SpaceX Clone",
+    content:
+      "Inspired by Brad Traversy SpaceX clone. I built it with NextJS/TailwindCSS",
+    image: "/portfolio_img/spacex.png",
+    technology: "#NextJS #TailwindCSS #VanillaJS",
+    link: "https://spacex20.vercel.app/",
   },
 ];
