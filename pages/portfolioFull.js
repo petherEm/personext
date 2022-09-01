@@ -73,7 +73,9 @@ const PortfolioItem = styled.div`
   -webkit-box-shadow: 5px 5px 15px 5px #f3efef;
   box-shadow: 5px 5px 15px 5px #f3efef;
   width: 320px;
+  min-width: 320px;
   height: auto;
+  min-height: 420px;
   border-radius: 20px;
   margin: 10px 20px;
   display: flex;
@@ -166,17 +168,21 @@ const PortfolioFull = () => (
             Hi there, check and see how I am progressing with my Full Stack
             journey and engaging with different Web Dev projects. Below, my
             training ideas and some inspirational projects from the great
-            tutors. I am incredibly thankful to {" "}
+            tutors. I am incredibly thankful to{" "}
             <strong>
               Brad Traversy (Traversy Media), LamaDev, FaztCode and PapaReact.
             </strong>
           </Intro>
           <Intro>
-            I am currently challenging myself <strong>to build 50 side job projects in 2022
-            fostering my stack (Vanilla JS, React/NextJS, TailwindCSS, Styled
-            Components, MongoDB, Firebase).</strong> My current responsibilities in Western Union among the others require more Data Science, hence Python (Pandas, Numpy) expertise. I will be adding some of the interesting Python projects as well.
-           
-
+            I am currently challenging myself{" "}
+            <strong>
+              to build 50 side job projects in 2022 fostering my stack (Vanilla
+              JS, React/NextJS, TailwindCSS, Styled Components, MongoDB,
+              Firebase).
+            </strong>{" "}
+            My current responsibilities in Western Union among the others
+            require more Data Science, hence Python (Pandas, Numpy) expertise. I
+            will be adding some of the interesting Python projects as well.
             <br />
             <br />
             <Link href="#other">

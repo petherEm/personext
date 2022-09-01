@@ -172,15 +172,19 @@ const Feature = () => {
           <Desc>
             My current role is spanning from contract negotiations, Business and
             Compliance requirements set (AMLD, PSD2, GDPR, MIFID) through
-            solution design in a highly regulated financial industry.
+            solution design and cross-functional team management in a highly
+            regulated financial industry.
             <br />
-            Previously I was responsible for WU digital expansion and development of WU App and westernunion.com I was integrating new 
-            payment methods, improving the customer onboarding and
-            verification process and driving overall WU digital product strategy for Central Europe.
-            <br />
-            I also held various Business, Operations and
-            Compliance roles in ABN Amro Bank, Royal Bank of Scotland, State
-            Street Bank and Western Union.
+            Previously{" "}
+            <b>
+              I was responsible for WU digital expansion and development of WU
+              App and westernunion.com I was integrating new payment methods,
+              improving the customer onboarding and verification process and
+              driving overall WU digital product strategy for Central Europe.
+            </b>
+            <br />I also held various Business, Operations and Compliance roles
+            in ABN Amro Bank, Royal Bank of Scotland, State Street Bank and
+            Western Union.
           </Desc>
           <Desc>
             By passion, I am an aspiring <b>Full Stack Developer </b>(see my

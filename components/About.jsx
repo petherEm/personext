@@ -127,8 +127,8 @@ const About = () => {
     init(textRef.current, {
       showCursor: false,
       strings: [
-        "Senior B2B Tech Sales",
         "Full Stack Developer",
+        "Senior B2B Tech Sales",
         "Warwick MBA alumnus",
         "Pythonist",
       ],

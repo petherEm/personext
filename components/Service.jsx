@@ -83,7 +83,9 @@ const PortfolioItem = styled.div`
     -webkit-box-shadow: 5px 5px 15px 5px #f3efef; 
     box-shadow: 5px 5px 15px 5px #f3efef;
     width: 320px;
+    min-width: 320px;
     height: auto;
+    min-height:  420px;
     border-radius: 20px;
     margin: 10px 20px;
     display: flex;
@@ -171,7 +173,7 @@ const Service = () => {
     return (
         <>
         <ServiceContainer>
-            <Title>My Dev Portfolio</Title>
+            <Title>My selected Dev Portfolio</Title>
             <Wrapper>
                 <Top>
                     {
