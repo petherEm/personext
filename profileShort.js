@@ -170,7 +170,7 @@ export const projectsShort = [
     name: "Instagram Clone",
     content:
       "Inspired by Papa React livestream. I rebuilt Instagram with NextJS/TailwindCSS using Firebase and NextAuth.",
-    image: "/portfolio_img/instaclone.png",
+    image: "/portfolio_img/Instaclone.png",
     technology: "#NextJS #TailwindCSS #Firebase #NextAuth",
     link: "https://instaclone-petherem.vercel.app/",
   },
