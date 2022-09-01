@@ -248,4 +248,14 @@ export const challengeInQ1 = [
     technology: "#NextJS #TailwindCSS #VanillaJS",
     link: "https://spacex20.vercel.app/",
   },
+  {
+    id: 28,
+    day: 28,
+    name: "Instagram Clone",
+    content:
+      "Inspired by Papa React livestream. I rebuilt Instagram with NextJS/TailwindCSS using Firebase and NextAuth.",
+    image: "/portfolio_img/instaclone.png",
+    technology: "#NextJS #TailwindCSS #Firebase #NextAuth",
+    link: "https://instaclone-petherem.vercel.app/",
+  },
 ];
