@@ -258,4 +258,43 @@ export const challengeInQ1 = [
     technology: "#NextJS #TailwindCSS #Firebase #NextAuth",
     link: "https://instaclone-petherem.vercel.app/",
   },
+  {
+    id: 29,
+    day: 29,
+    name: "Zetaversum.",
+    content:
+      "Inspired by JS Mastery. I built this landing page with NextJS 13, TailwindCSS and Framer Motion.",
+    image: "/portfolio_img/zeta.png",
+    technology: "#NextJS #TailwindCSS #FramerMotion",
+    link: "https://zetaversum.vercel.app/",
+  },
+  {
+    id: 31,
+    day: 31,
+    name: "New AirBnB clone",
+    content: "NextJS13, TailwindCSS, Mapbox, NextAuth",
+    image: "/portfolio_img/arbb.png",
+    technology: "#NextJS #JS #Mapbox",
+    link: "https://arbb.vercel.app",
+  },
+  {
+    id: 31,
+    day: 31,
+    name: "Weather App",
+    content: "NextJS, TailwindCSS, API",
+    image: "/portfolio_img/weatherapp.png",
+    technology: "#NextJS #JS #TailwindCSS, #API",
+    link: "https://nextweather-plum.vercel.app",
+  },
+  {
+    id: 32,
+    day: 32,
+    name: "Amazon Clone",
+    content: "NextJS, TailwindCSS, Redux, Firebase",
+    image: "/portfolio_img/amazon.png",
+    technology: "#NextJS #JS #TailwindCSS, #API",
+    link: "https://amazon4-two.vercel.app/",
+
+  }
+  
 ];

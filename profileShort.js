@@ -5,7 +5,7 @@ export const projectsShort = [
     content: "All-in WebApp over Helium concept",
     image: "/portfolio_img/helium.png",
     technology: "#NextJS, #api #MongoDB #styled components #mapbox",
-    link: "https://heliumverse.eu",
+    link: "https://heliumfront-petherem.vercel.app/",
   },
   {
     id: 2,
@@ -44,11 +44,11 @@ export const projectsShort = [
   },
   {
     id: 6,
-    name: "Financial Advisory",
-    content: "Project - Business website for Financial Advisory office",
-    image: "/portfolio_img/joanna4.jpg",
-    technology: "#Bootstrap4 #JS #HTML/CSS #api",
-    link: "http://www.jfinanse.pl",
+    name: "New AirBnB clone",
+    content: "NextJS13, TailwindCSS, Mapbox, NextAuth",
+    image: "/portfolio_img/arbb.png",
+    technology: "#NextJS #JS #Mapbox",
+    link: "https://arbb.vercel.app",
   },
   {
     id: 7,
